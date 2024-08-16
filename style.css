@@ -1,0 +1,339 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: rgb(85, 85, 85);
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+header > .a {
+    font-size: 50px;
+    cursor: pointer;
+}
+.a > #x {
+    text-decoration: none;
+    color: white;
+}
+.a > #x > span {
+    color: rgb(122, 200, 5);
+}
+.a > #y {
+    font-size: 25px;
+    color: rgb(218, 216, 216);
+    background-color: rgb(65, 64, 64);
+}
+.b > i {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.b > i:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.b > #z {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.b > #z:hover {
+    background-color: black;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.5rem;
+}
+.c {
+    display: flex;
+}
+.c > h3 {
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.d > i {
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.d > i:hover {
+    color: orangered;
+}
+.z {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 1.5rem;
+    padding: 20px 10px;
+    border-bottom: 2px solid orangered;
+    width: 100%;
+}
+nav > .e {
+    cursor: pointer;
+}
+nav > .f > a {
+    color: black;
+    padding: 0px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.g {
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    display: flex;
+    padding: 3%;
+    height: 73vh;
+    border-radius: 0 0 20% 20%;
+}
+.g > .h > h1 {
+ font-size: 3rem;
+ color: white;
+}
+.g > .h > h1 > span {
+    font-size: 5rem;
+
+   }
+.g > .h > p {
+    margin: 0.1%;
+    font-size: 2rem;
+    color: white;
+   }
+.i > img {
+    width: 50vw;
+}
+.g > .h > button {
+    color: orangered;
+    background-color: white;
+    border: 2px solid orangered;
+    margin-top: 20px;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.g > .h > button:hover {
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+}
+.j {
+    text-align: center;
+    margin: 140px 0px;
+}
+.j > h1 {
+    font-size: 60px;
+}
+.j > .k {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+.j > .k > .l {
+    border: 1px solid orangered;
+    width: 25%;
+    margin: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.j > .k > .l:hover {
+    border: none;
+    box-shadow: 0px 0px 10px grey;
+    cursor: pointer;
+}
+.j > .k > .l > h1 {
+    padding: 5% ;
+}
+.l > .az { 
+    margin-left: 24%;
+    background-color: orangered;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 62% 38% 62% 38% / 65% 69% 31% 35%;
+    padding-top: 7%;
+}
+.m {
+    margin: 140px 0px;
+    display: flex; 
+    justify-content: space-evenly;
+    width: 100%;
+}
+.m > .n > img {
+    width: 90%;
+    height: 60vh;
+}
+.n {
+    padding: 40px;
+    width: 40%;
+}
+.n > h1 {
+    font-size:  2.5rem;
+    margin-bottom: 2%;
+}
+.n > h1 > span {
+    font-size: 3.5rem;
+}
+.n > button {
+    color: white;
+    background-color: orangered;
+    border: 2px solid orangered;
+    margin-top: 40px;
+    border-radius: 10%;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+.n > button:hover {
+    cursor: pointer;
+    background-color: white;
+    color:  orangered;
+}
+.o {
+    margin: 140px 0px;
+    display: flex; 
+    justify-content: space-evenly;
+    width: 100%;
+}
+.o > .p > .pp {
+    font-size: 3.5rem;
+}
+.o > .p > p {
+    padding: 30px 0px;
+}
+.o > .p > button {
+    color: white;
+    background-color: orangered;
+    border: 2px solid orangered;
+    margin-top: 40px;
+    border-radius: 20%;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+.o > .p > button:hover {
+    cursor: pointer;
+    background-color: white;
+    color:  orangered;
+}
+.q {
+    margin-top: 8%;
+    box-shadow: 0px 0px 10px gray;
+    padding: 20px;
+    width: 20%;
+    height: 30vh;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.q > h1 {
+    font-size: 4.5rem;
+}
+.dd {
+    box-shadow: 0px 0px 10px gray;
+    padding: 20px;
+    width: 20vw;
+    height: 30vh;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dd > h1 {
+    font-size: 4.5rem;
+}
+.s {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    width: 50%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px gray;
+    padding: 40px 0px;
+}
+.s:hover {
+    box-shadow: 0px 0px 15px gray;
+}
+.s > .t > img {
+    width: 100%
+}
+.t {
+    padding: 0rem 2rem;
+}
+.v {
+    text-align: center;
+}
+.v > h1 {
+    font-size: 3rem;
+}
+.v > p {
+    color: rgba(0, 0, 0, 0.404);
+}
+.x {
+    background-image: url(img/contact_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.x {
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+    height: 60vh;
+    margin-top: 4rem;
+}
+.x > h1 {
+    font-size: 3rem;
+    padding: 5vh;
+}
+.x > h3 {
+    font-size: 2rem;
+}
+.y {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.x .y > p {
+    font-size: 2rem;
+}
+.x .y > button {
+    color: orangered;
+    background-color: white;
+    border: 2px solid orangered;
+    margin-top: 20px;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.x .y > button:hover {
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+}
+.z {
+    background-color: rgb(232, 232, 232);
+    padding: 60px 0px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+.zz {
+    width: 15%;
+}
+.zzz {
+    padding: 40px 0px;
+}
+.zzz > p > i {
+    color: red;
+    font-size: 2rem;
+}
+.zz > i {
+    font-size: 2rem;
+}
